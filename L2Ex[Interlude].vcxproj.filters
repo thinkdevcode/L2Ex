@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="L2SDK">
+      <UniqueIdentifier>{644e72b3-dbbc-4019-9331-f508041ec458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="L2SDK\CPatchEngine">
+      <UniqueIdentifier>{6414c798-b30b-4297-8e73-cff168ed8674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="L2SDK\CPacketTools">
+      <UniqueIdentifier>{b8ec2942-0f7d-41b2-95dd-3fa57fcd28a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="L2SDK\L2Server API">
+      <UniqueIdentifier>{e0acfd7b-eee1-45f0-bf51-218e992162dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="L2Ex">
+      <UniqueIdentifier>{7bbfb327-e4f5-46e4-a78e-91606672f6ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="L2Ex\ServerPackets">
+      <UniqueIdentifier>{f6d5e548-16f9-4c67-a092-bdf9e0d50c48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="L2Ex\ServerPackets\Packets">
+      <UniqueIdentifier>{4b650b1d-ea78-4a8d-a22a-e9a1831c1e56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="L2Ex\Server Hooks">
+      <UniqueIdentifier>{9c976e90-d967-45d1-9593-ec1af11e125e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="L2Ex\Server Hooks\LoadData">
+      <UniqueIdentifier>{526c5153-5c44-4e5c-bf8c-1811ef446411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="L2Ex\Server Hooks\EnterWorld">
+      <UniqueIdentifier>{e9bb7e22-216e-4c3d-abf3-395213efc06c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="L2Ex\ClientPackets">
+      <UniqueIdentifier>{78e57620-7bf3-4a6c-9f4d-8ed06ea0cb19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="L2Ex\ClientPackets\Packets">
+      <UniqueIdentifier>{13f387b5-fb74-4f4e-9368-3283026735d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include=".\L2SDK.h">
+      <Filter>L2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include=".\CPatchEngine.h">
+      <Filter>L2SDK\CPatchEngine</Filter>
+    </ClInclude>
+    <ClInclude Include=".\CPacketTools.h">
+      <Filter>L2SDK\CPacketTools</Filter>
+    </ClInclude>
+    <ClInclude Include=".\CCreature.h">
+      <Filter>L2SDK\L2Server API</Filter>
+    </ClInclude>
+    <ClInclude Include=".\CSharedData.h">
+      <Filter>L2SDK\L2Server API</Filter>
+    </ClInclude>
+    <ClInclude Include=".\CSocket.h">
+      <Filter>L2SDK\L2Server API</Filter>
+    </ClInclude>
+    <ClInclude Include=".\L2Server.h">
+      <Filter>L2SDK\L2Server API</Filter>
+    </ClInclude>
+    <ClInclude Include=".\L2Ex.h">
+      <Filter>L2Ex</Filter>
+    </ClInclude>
+    <ClInclude Include=".\ServerPackets.h">
+      <Filter>L2Ex\ServerPackets</Filter>
+    </ClInclude>
+    <ClInclude Include=".\ClientPackets.h">
+      <Filter>L2Ex\ClientPackets</Filter>
+    </ClInclude>
+    <ClInclude Include=".\DllMain.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include=".\CPatchEngine.cpp">
+      <Filter>L2SDK\CPatchEngine</Filter>
+    </ClCompile>
+    <ClCompile Include=".\CPacketTools.cpp">
+      <Filter>L2SDK\CPacketTools</Filter>
+    </ClCompile>
+    <ClCompile Include=".\L2Ex.cpp">
+      <Filter>L2Ex</Filter>
+    </ClCompile>
+    <ClCompile Include=".\ServerPackets.cpp">
+      <Filter>L2Ex\ServerPackets</Filter>
+    </ClCompile>
+    <ClCompile Include=".\CharSelectInfo.cpp">
+      <Filter>L2Ex\ServerPackets\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include=".\ItemList.cpp">
+      <Filter>L2Ex\ServerPackets\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include=".\ItemListUpdate.cpp">
+      <Filter>L2Ex\ServerPackets\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include=".\MultiSellList.cpp">
+      <Filter>L2Ex\ServerPackets\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include=".\ProtocolVersion.cpp">
+      <Filter>L2Ex\ServerPackets\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include=".\ShortCutInit.cpp">
+      <Filter>L2Ex\ServerPackets\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include=".\ShortCutRegister.cpp">
+      <Filter>L2Ex\ServerPackets\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include=".\SkillList.cpp">
+      <Filter>L2Ex\ServerPackets\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include=".\UserInfo.cpp">
+      <Filter>L2Ex\ServerPackets\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include=".\WarehouseDepositList.cpp">
+      <Filter>L2Ex\ServerPackets\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include=".\WarehouseWithdrawalList.cpp">
+      <Filter>L2Ex\ServerPackets\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include=".\LoadData.cpp">
+      <Filter>L2Ex\Server Hooks\LoadData</Filter>
+    </ClCompile>
+    <ClCompile Include=".\EnterWorld.cpp">
+      <Filter>L2Ex\Server Hooks\EnterWorld</Filter>
+    </ClCompile>
+    <ClCompile Include=".\ClientPackets.cpp">
+      <Filter>L2Ex\ClientPackets</Filter>
+    </ClCompile>
+    <ClCompile Include=".\ExPacketHandler.cpp">
+      <Filter>L2Ex\ClientPackets\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include=".\DllMain.cpp" />
+    <ClCompile Include=".\Test.cpp" />
+  </ItemGroup>
+</Project>
